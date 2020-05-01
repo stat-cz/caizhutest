@@ -4809,12 +4809,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-    #ace-card {
-        float: left;
-        width: 288px;
-        position: fixed;
-        margin-left: 10px;
-    }
 
 
 @media (min-width: 200px) {
@@ -4889,6 +4883,12 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
+    #ace-card {
+        float: left;
+        width: 288px;
+        position: fixed;
+        margin-left: 10px;
+    }
 
 
 .section {
