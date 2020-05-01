@@ -4822,8 +4822,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .ace-container {
-        padding-left: 220px;
-        padding-right: 50px;
+        padding-left: 50px;
+        padding-right: 280px;
     }
 
     #ace-content {
