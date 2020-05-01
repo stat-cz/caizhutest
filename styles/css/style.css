@@ -6574,14 +6574,19 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
 }
 
-/* 左右两侧宽度 */
-.column.side {
+/* 左两侧宽度 */
+.column.left {
   width: 25%;
 }
 
 /* 中间区域宽度 */
 .column.middle {
-  width: 50%;
+  width: 70%;
+}
+
+/* 右两侧宽度 */
+.column.right {
+  width: 5%;
 }
 
 /* 列后面清除浮动 */
@@ -6593,7 +6598,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 响应式布局 - 宽度小于600px时设置上下布局 */
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+  .column.left, .column.middle,  .column.right{
     width: 100%;
   }
 }
