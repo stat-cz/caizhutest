@@ -5195,8 +5195,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 42px;
 }
 
-ace-nav-wrap {
-    float: right;
+#ace-nav-wrap {
+    float: left;
     right: 1px;
     z-index: 4;
     width: 56px;
