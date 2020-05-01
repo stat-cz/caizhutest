@@ -4879,13 +4879,10 @@ h1, h2, h3, h4, h5, h6 {
         border-style: solid;
     }
 
-    #ace-card {
-        float: left;
-        width: 288px;
-        position: fixed;
-        margin-left: 10px;
-    }
+    
 }
+
+
 
 .section {
     margin-bottom: 2.188em;
@@ -5194,6 +5191,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 34px;
     line-height: 42px;
 }
+
+#ace-card {
+        float: left;
+        width: 288px;
+        position: fixed;
+        margin-left: 10px;
+    }
 
 #ace-nav-wrap {
     float: right;
