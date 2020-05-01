@@ -5192,12 +5192,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 42px;
 }
 
-ace-card {
-        float: left;
-        width: 288px;
-        position: fixed;
-        margin-left: 10px;
-    }
+
 
 #ace-nav-wrap {
     float: right;
@@ -5428,7 +5423,11 @@ ace-card {
 }
 
 #ace-card {
-    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
+	float: left;
+        width: 288px;
+        position: fixed;
+        margin-left: 10px;
+         box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
 }
 
 #ace-card h1 {
