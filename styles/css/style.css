@@ -549,6 +549,9 @@ th, td {
     vertical-align: top;
     border-bottom: 1px solid #ddd;
 }
+.td-border td {
+        border-bottom: none;
+    }
 
 th {
     font-weight: 700;
