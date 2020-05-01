@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
+<div id="ace-content" class="ace-container-shift">
+    <div class="ace-container">
+         
+
+       <div class="ace-card-inner text-center">
+         <p class="text-muted">{{ site.location }} | {{ site.company }} | {{ site.position }}</p>
+      </div>
+
+        <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+            <p class="text-muted">{{ site.location }} | {{ site.company }} | {{ site.position }}</p>
+        </div><!-- .ace-nav-wrap -->
+
+        <div class="ace-paper-stock">
+           <p class="text-muted">{{ site.location }} | {{ site.company }} | {{ site.position }}</p>
+        </div><!-- .ace-paper-stock -->
 
 
-
-    {% include personal.html %}
-    {% include navig.html %}
-    {% include main.html %}
-
-
+    </div><!-- .ace-container -->
+</div><!-- #ace-content -->
