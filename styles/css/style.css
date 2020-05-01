@@ -4878,6 +4878,13 @@ h1, h2, h3, h4, h5, h6 {
         border-width: 1px;
         border-style: solid;
     }
+   
+    ace-card {
+        float: left;
+        width: 288px;
+        position: fixed;
+        margin-left: 10px;
+    }
 
     
 }
@@ -5423,11 +5430,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #ace-card {
-	float: left;
-        width: 288px;
-        position: fixed;
-        margin-left: 10px;
-         box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
+    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
 }
 
 #ace-card h1 {
