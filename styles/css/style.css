@@ -547,7 +547,7 @@ th, td, caption {
 th, td {
     padding: 20px 8px;
     vertical-align: top;
-    border-bottom: 1px solid #ddd;
+
 }
 .td-border td {
         border-bottom: none;
