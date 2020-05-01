@@ -4793,7 +4793,7 @@ h1, h2, h3, h4, h5, h6 {
 .ace-container {
     width: 500px;
     max-width: 940px;
-    margin: 228px;
+    margin: 0;
 }
 
 .ace-container,
@@ -4822,8 +4822,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .ace-container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 220px;
+        padding-right: 50px;
     }
 
     #ace-content {
