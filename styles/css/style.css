@@ -4791,7 +4791,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ace-container {
-    width: 100%;
+    width: 500px;
     max-width: 940px;
     margin: 0 auto;
 }
