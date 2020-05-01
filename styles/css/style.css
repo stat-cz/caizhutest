@@ -5192,7 +5192,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 42px;
 }
 
-#ace-card {
+ace-card {
         float: left;
         width: 288px;
         position: fixed;
