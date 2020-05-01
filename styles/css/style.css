@@ -4809,6 +4809,14 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+    #ace-card {
+        float: left;
+        width: 288px;
+        position: fixed;
+        margin-left: 10px;
+    }
+
+
 @media (min-width: 200px) {
     /*.ace-wrapper {
      padding-left: 20px;
@@ -4878,14 +4886,6 @@ h1, h2, h3, h4, h5, h6 {
         border-width: 1px;
         border-style: solid;
     }
-   
-    #ace-card {
-        float: left;
-        width: 288px;
-        position: fixed;
-        margin-left: 10px;
-    }
-
     
 }
 
@@ -5441,10 +5441,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ace-card-inner {
-	float: left;
-        width: 288px;
-        position: fixed;
-        margin-left: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
