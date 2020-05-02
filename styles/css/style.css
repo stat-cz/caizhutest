@@ -538,7 +538,7 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
     margin-bottom: 22px;
-    
+    align: center;
 }
  .formCenter {
 
@@ -571,6 +571,7 @@ table > thead > tr > th {
     line-height: 1.1;
     padding-top: 0;
     padding-bottom: 8px;
+	align: center;
 }
 
 .table-fixed {
