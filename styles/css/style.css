@@ -538,6 +538,7 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
     margin-bottom: 22px;
+    align="center"
 }
 
 th, td, caption {
