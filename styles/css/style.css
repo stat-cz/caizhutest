@@ -538,8 +538,14 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
     margin-bottom: 22px;
-    align="center"
+    
 }
+ .formCenter {
+
+            margin: 0 auto;
+            border: solid 1px #ff0000
+        }
+
 
 th, td, caption {
     text-align: center;
